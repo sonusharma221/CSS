@@ -42,7 +42,7 @@ nav ul{
     list-style: none;
     gap: 50px;
     align-items: center;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
 }
 ul li .count{
@@ -100,6 +100,7 @@ section .our-service{
     margin-bottom: 30px;
 }
 
+
 .logo{
     display: block;
     animation-name: scrol;
@@ -144,6 +145,7 @@ section .heading{
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .heading h1{
     font-size: 50px;
@@ -152,10 +154,16 @@ section .heading{
 
 .heading .work-btn{
     font-size: 16px;
-    padding: 20px 30px;
+    padding: 13px 20px;
     border: 1px solid black;
     border-radius: 30px;
+    text-align: center;
 }
+.heading .work-btn:hover{
+    background: #000;
+    color: white;
+}
+
 .imag-4{
     margin-bottom: 150px;
     gap: 30px;
@@ -170,7 +178,6 @@ grid-template-areas: "tl tr"
 .imag-4 img{
 height: 100%;
 width: 100%;
-
 }
 .tl{
 grid-area: tl;
@@ -197,6 +204,11 @@ grid-area: br;
     justify-content: space-between;
     align-items: center;
 
+
+}
+.para-btn :nth-child(2):hover{
+    background: #000;
+    color: white;
 }
 .tl button{
     background-color: white;
@@ -338,7 +350,7 @@ section .ourteam .heading{
 
 .ourteam .heading .about-us{
     font-size: 16px;
-    padding: 20px 25px;
+    padding: 14px 22px;
     border: 1px solid black;
     border-radius: 30px;
     }
@@ -413,6 +425,10 @@ section .ourteam .heading{
     border: 1px solid black;
     border-radius: 30px;
 }
+.Text button:hover{
+        background: #000;
+        color: white;
+    }
 
 .firstlogoContainer{
     display: flex;
@@ -491,6 +507,11 @@ section .ourteam .heading{
     background: transparent;
 
 }
+.blogheading :nth-child(2):hover{
+        background: #000;
+        color: white;
+
+}
 .blogimg{
 display: flex;
 width: 100%;
@@ -529,21 +550,54 @@ footer{
     gap: 40px;
 }
 
+.desbox1 .iccon{
+    margin-top: 40px;
+}
+
+.desbox1 .iccon i{
+    background: aliceblue;
+    padding: 8px 10px;
+    border-radius: 50%;
+    font-size: large;
+    
+}
+
 .desbox .foo{
 
 width: 25%;
 }
-.foo :nth-child(2){
+.foo hr{
+    margin-top: 10px;
     height: 0.3px;
-    background-color: gray;
+    background-color: rgb(197, 196, 196);
 }
 .foo ul{
 
     list-style: none;
     margin-top: 20px;
+    font-size: 15px;
 }
 .foo ul li{
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.foo button{
+    padding: 18px 34px ;
+    background: #000;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: white;
+}
+.about{
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
     margin-bottom: 20px;
+    color: gray;
+    font-size: 14px;
 }
 
 
